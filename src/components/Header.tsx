@@ -19,7 +19,7 @@ const Header = () => {
                     <h1 className="text-[#22202E] text-2xl font-semibold">Avion</h1>
 
                     <div className="flex text-xl gap-3">
-                        <MdOutlineShoppingCart />
+                       <Link href="/cart"><MdOutlineShoppingCart /></Link> 
                         <CgProfile />
                     </div>
                 </div>
