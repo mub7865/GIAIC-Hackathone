@@ -6,13 +6,14 @@ import Features from '@/components/Features'
 import Listing from '@/components/Listing'
 import About2 from '@/components/About2'
 import Link from 'next/link'
+import Header2 from '@/components/Header2'
 
 const Products = () => {
 
   return (
 
     <div>
-
+     <Header2/>
       <Navbar2 />
       <main className='w-[390px] lg:w-full'>
         {/* About Hero */}

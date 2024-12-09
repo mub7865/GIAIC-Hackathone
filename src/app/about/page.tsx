@@ -1,6 +1,7 @@
 import About2 from '@/components/About2';
 import Features from '@/components/Features';
 import Footer2 from '@/components/Footer2';
+import Header2 from '@/components/Header2';
 import Listing2 from '@/components/Listing2';
 import Navbar2 from '@/components/Navbar2';
 import Image from 'next/image'
@@ -12,15 +13,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 const About = () => {
     return (
         <>
-            {/* header */}
-            <header className='bg-[#2A254B] lg-w-full lg:w-[390px] h-[41px] flex lg:justify-between px-[17px]'>
-                <div className='flex gap-x-2 items-center lg:ml-[39.5%]'>
-                    <TbTruckDelivery size={24} />
-                    <p className='body-lg text-white'>Free delivery on all orders over £50 with code easter checkout</p>
-                </div>
-                <IoClose size={24} className='my-2' />
-            </header>
-
+          <Header2/>
             <Navbar2 />
 
 
