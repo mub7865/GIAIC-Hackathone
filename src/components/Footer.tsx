@@ -9,7 +9,7 @@ import { FaPinterestSquare } from "react-icons/fa";
 
 export const Footer = () => {
     return (
-        <footer className="bg-[#2A254B] text-white pt-[40px] lg:pt-[58px] pb-6 px-6 sm:px-[82px]">
+        <footer className="bg-[#2A254B] w-[390px] lg:w-full text-white pt-[40px] lg:pt-[58px] pb-6 px-6 sm:px-[82px]">
             <section className="grid grid-cols-2 gap-x-[96px] lg:flex sm:justify-between pb-12 border-b border-[#4E4D93]">
 
                 <div className="space-y-3 max-sm:w-max">
