@@ -13,10 +13,10 @@ const About = () => {
     return (
         <>
             {/* header */}
-            <header className='bg-[#2A254B] lg-w-full lg:w-[390] h-[41px] flex lg:justify-between px-[17px]'>
+            <header className='bg-[#2A254B] lg-w-full lg:w-[390px] h-[41px] flex lg:justify-between px-[17px]'>
                 <div className='flex gap-x-2 items-center lg:ml-[39.5%]'>
                     <TbTruckDelivery size={24} />
-                    <p className='body-sm text-white'>Free delivery on all orders over £50 with code easter checkout</p>
+                    <p className='body-lg text-white'>Free delivery on all orders over £50 with code easter checkout</p>
                 </div>
                 <IoClose size={24} className='my-2' />
             </header>
@@ -25,8 +25,8 @@ const About = () => {
 
 
 
-            <main>
-                <section className='max-sm:space-y-10 px-6 sm:px-[128px] py-8 sm:py-[88px] lg:flex justify-between'>
+            <main className='w-[390px] lg:w-full'>
+                <section className='w-[390px] lg:w-full max-lg:space-y-10 px-6 lg:px-[128px] py-8 lg:py-[88px] lg:flex justify-between'>
                     <h1 className=' lg:w-[704px] font-normal lg:text-[36px] lg:leading-[50.4px] text-[#2A254B] '>A brand built on the love of craftmanship, quality and outstanding customer service</h1>
                     <Link href='/cart'>
                     <button className=' h-[54px]  py-[16px] px-[100px] lg:px-8 flex lg:gap-5 gap-[10px] items-center text-[16px] leading-6 font-normal  bg-[#F9F9F9] text-[#2A254B] '>
@@ -36,10 +36,10 @@ const About = () => {
                 </section>
 
                 <Listing2 />
-                <section className='sm:grid grid-cols-2'>
+                <section className='lg:grid grid-cols-2'>
                     <Image src="/about-2.png" alt="failed" width={720} height={603} />
 
-                    <div className='bg-[#F9F9F9] px-6 sm:pl-[84px] sm:pr-[100px] py-12 sm:pt-[72px] sm:pb-14 space-y-12 sm:space-y-[25px] flex flex-col justify-between'>
+                    <div className='bg-[#F9F9F9] px-6 lg:pl-[84px] lg:pr-[100px] py-12 lg:pt-[72px] lg:pb-14 space-y-12 lg:space-y-[25px] flex flex-col justify-between'>
                         <div className='flex flex-col gap-[25px]'>
                             <h3 className='text-[#2A254B] text-[24px] lg:leading-[33.6px] '>Our service isn’t just personal, it’s actually hyper personally exquisite</h3>
                             <p className='text-[#505977] text-[18px] lg:leading-[21.6px]'>When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market. </p>

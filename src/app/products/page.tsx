@@ -14,7 +14,7 @@ const Products = () => {
     <div>
 
       <Navbar2 />
-      <main>
+      <main className='w-[390px] lg:w-full'>
         {/* About Hero */}
         <div className='w-[390px] lg:w-full flex flex-col lg:flex-row '>
           <Image src={'/productListing.png'} alt='Image Not Found' width={721} height={759}></Image>

@@ -8,7 +8,7 @@ import { LuInstagram } from 'react-icons/lu';
 const Footer2 = () => {
   return (
     <div>
-          <footer className='bg-[#2A254B] w-[390px] lg:w-full pt-10 lg:pt-[53px] pr-[65px] lg:pr-[168px]  pl-6  lg:pl-[80px]'>
+          <footer className='bg-[#2A254B] w-[390px] lg:w-full pt-10 lg:pt-[53px] pr-[65px] lg:pr-[168px] pl-6 lg:pl-[80px]'>
                 <section className='text-white grid grid-cols-2 gap-x-[29px] lg:flex justify-between'>
                     <div className='space-y-4'>
                         <h1>Avion</h1>
