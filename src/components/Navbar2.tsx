@@ -14,12 +14,17 @@ const Navbar2 = () => {
                     <h1 className="lg:ml-10 text-[#22202E] text-2xl font-semibold">Avion</h1>
                     <div className='flex gap-[47px] lg:mr-10 '>
                         <ul className='hidden  lg:flex gap-[32px] '>
+                            <Link href="/" className="hover:text-[#444242] ">                         
+                               <li className='font-normal text-[16px]   leading-[21.6px]'>Home</li>
+                            </Link>
+
                             <li className='font-normal text-[16px]   leading-[21.6px]'>About</li>
                             <li className='font-normal text-[16px]   leading-[21.6px]'>Contact</li>
                             <li className='font-normal text-[16px]   leading-[21.6px]'>Blog</li>
 
                         </ul>
                         <div className="flex text-xl gap-3">
+
                             <IoSearch className="text-xl" />
 
                             <Link href="/cart"><MdOutlineShoppingCart /></Link>
@@ -44,11 +49,13 @@ const Navbar2 = () => {
 
                 {isOpen == true ? (
                     <nav className="absolute top-[124px] left-0 flex flex-col gap-2 w-[390px] lg:h-1/2 px-5 py-5 bg-[#2A254B] text-white">
-                        <Link href="/" className="hover:text-[#444242]">About</Link>
+                        <Link href="/" className="hover:text-[#444242] ">Home</Link>
+
+                        <Link href="/about" className="hover:text-[#444242]">About</Link>
                         <Link href="/" className="hover:text-[#444242]">Contact</Link>
                         <Link href="/" className="hover:text-[#444242]">blog</Link>
-                        <Link href="/" className="hover:text-[#444242] ">Plant pots</Link>
-                        <Link href="/" className="hover:text-[#444242]">Ceramics</Link>
+                        <Link href="/products" className="hover:text-[#444242] ">All products</Link>
+                        <Link href="/" className="hover:text-[#444242]">Plant pots</Link>
                         <Link href="/" className="hover:text-[#444242]">Tables</Link>
                         <Link href="/" className="hover:text-[#444242]">Chairs</Link>
                         <Link href="/" className="hover:text-[#444242]">Crockery</Link>
@@ -59,8 +66,8 @@ const Navbar2 = () => {
                 ) : (
                     <div className='lg:w-full  lg:h-1/2 bg-[#F9F9F9] flex justify-between items-center '>
                         <nav className="hidden lg:flex lg:w-[675px] lg:mx-auto justify-between items-center text-[#726E8D]">
+                            <Link href="/products" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">All products</Link>
                             <Link href="/" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">Plant pots</Link>
-                            <Link href="/" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">Ceramics</Link>
                             <Link href="/" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">Tables</Link>
                             <Link href="/" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">Chairs</Link>
                             <Link href="/" className="hover:text-[#5a526c] border-b-2 border-transparent hover:border-[#5a526c] pb-1">Crockery</Link>

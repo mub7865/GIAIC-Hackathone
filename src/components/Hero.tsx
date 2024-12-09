@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Hero = () => {
     return (
@@ -12,9 +13,10 @@ const Hero = () => {
                         <h2 className='font-normal text-[32px] leading-[44.8px] text-[#22202E] mb-5'>Luxury homeware for people who love timeless design quality</h2>
                         <p className='font-normal text-[18px] leading-[27px] text-[#5B5676]'>Shop the new Spring 2022 collection today</p>
                     </div>
-                    <button className='py-4 px-8 flex gap-5 bg-[#F9F9F9] text-[#2A254B] '>
+                    <Link href='/products'><button className='py-4 px-8 flex gap-5 bg-[#F9F9F9] text-[#2A254B] '>
                         View collection
-                    </button>
+                    </button></Link>
+                    
                 </div>
 
             </div>

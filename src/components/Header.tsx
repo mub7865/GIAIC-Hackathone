@@ -4,6 +4,7 @@ import { IoSearch } from "react-icons/io5";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { useState } from "react";
+import { SiAboutdotme } from "react-icons/si";
 
 
 const Header = () => {
@@ -18,17 +19,30 @@ const Header = () => {
                     <IoSearch className="text-xl" />
                     <h1 className="text-[#22202E] text-2xl font-semibold">Avion</h1>
 
-                    <div className="flex text-xl gap-3">
-                       <Link href="/cart"><MdOutlineShoppingCart /></Link> 
+                    <div className=" flex text-xl items-center gap-3">
+                    <Link href="/"> Home</Link>
+                    <Link href="/about"> about.me</Link>
+                    <Link href="/cart"><MdOutlineShoppingCart /></Link>
                         <CgProfile />
+                     
+
                     </div>
                 </div>
+
 
                 <div className="lg:hidden  flex justify-between">
                     <h1 className="text-[#22202E] text-2xl font-semibold ml-6 my-[19px]">Avion</h1>
                     <div className="flex gap-5 my-[26px] mr-5">
                         {/* Search */}
+
                         <IoSearch className="text-[16px] block" />
+                        <Link href="/cart"><MdOutlineShoppingCart /></Link>
+                        <Link href="/about"> <SiAboutdotme size={50} className="mt-[-16px]" /></Link>
+
+
+
+
+
                         {/* menubar */}
                         <template className="block">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" onClick={() => { setIsOpen(!isOpen) }}>
@@ -40,6 +54,9 @@ const Header = () => {
 
                 {isOpen == true ? (
                     <nav className="absolute top-[70px] left-0 flex flex-col gap-2 w-[390px] lg:h-1/2 px-5 py-5 bg-[#ecd2bf] text-black">
+                        <Link href="/" className="hover:text-[#444242] ">Home</Link>
+                        <Link href="/about" className="hover:text-[#444242]">About</Link>
+                        <Link href="/" className="hover:text-[#444242]">Contact</Link>
                         <Link href="/" className="hover:text-[#444242] ">Plant pots</Link>
                         <Link href="/" className="hover:text-[#444242]">Ceramics</Link>
                         <Link href="/" className="hover:text-[#444242]">Tables</Link>

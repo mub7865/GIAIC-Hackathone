@@ -4,6 +4,7 @@ import Footer2 from '@/components/Footer2';
 import Listing2 from '@/components/Listing2';
 import Navbar2 from '@/components/Navbar2';
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react'
 import { IoClose } from 'react-icons/io5';
 import { TbTruckDelivery } from "react-icons/tb";
@@ -27,9 +28,11 @@ const About = () => {
             <main>
                 <section className='max-sm:space-y-10 px-6 sm:px-[128px] py-8 sm:py-[88px] lg:flex justify-between'>
                     <h1 className=' lg:w-[704px] font-normal lg:text-[36px] lg:leading-[50.4px] text-[#2A254B] '>A brand built on the love of craftmanship, quality and outstanding customer service</h1>
+                    <Link href='/cart'>
                     <button className=' h-[54px]  py-[16px] px-[100px] lg:px-8 flex lg:gap-5 gap-[10px] items-center text-[16px] leading-6 font-normal  bg-[#F9F9F9] text-[#2A254B] '>
                         View collection
                     </button>
+                    </Link>
                 </section>
 
                 <Listing2 />
@@ -48,9 +51,6 @@ const About = () => {
                     </div>
                 </section>
                 <Features />
-
-
-
                 <About2 />
 
 

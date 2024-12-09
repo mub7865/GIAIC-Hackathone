@@ -4,6 +4,7 @@ import { LuInstagram } from "react-icons/lu";
 import { FaSkype } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import { FaPinterestSquare } from "react-icons/fa";
+import Link from "next/link";
 
 
 
@@ -39,8 +40,8 @@ export const Footer = () => {
                     <h5>Our company</h5>
 
                     <ul className="space-y-3">
-                        <li>About us</li>
-                        <li>Vacancies</li>
+                    <Link href='/about'><li>About us</li></Link> 
+                    <li>Vacancies</li>
                         <li>Contact us</li>
                         <li>Privacy</li>
                         <li>Returns policy</li>

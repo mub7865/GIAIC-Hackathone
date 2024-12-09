@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Listing = () => {
   return (
@@ -28,10 +29,12 @@ const Listing = () => {
                          <h4 className='text-[20px] leading-7 font-normal'>Rustic Vase Set</h4>
                         <p className='text-[18px] leading-7 font-normal'>£399</p>
                    </div>
-                </div>       
+                </div>   
+                <Link  href='/products'>   
                 <button className='py-4 px-[100px] mt-10 lg:px-8  mx-auto lg:mt-[48px] lg:mb-3 flex lg:gap-5 gap-[10px] items-center text-[16px] leading-6 font-normal  bg-[#F9F9F9] text-[#2A254B] '>
                         View collection
-                </button>        
+                </button>  
+                </Link>       
       </div>
      
       
