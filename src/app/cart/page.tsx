@@ -9,10 +9,10 @@ const page = () => {
            <Header/>
             <main>
                 <section className=" pt-9 lg:pt-16 pl-6 lg:pl-[188px] pr-6 lg:pr-[193px] bg-[#F9F9F9] ">
-                    <h1 className="max-lg:text-[24px]">Your shopping cart</h1>
+                    <h1 className="lg:text-[24px]">Your shopping cart</h1>
 
                     <table className="mt-12 w-full">
-                        <thead className="max-lg:hidden">
+                        <thead className="lg:hidden">
                             <tr className="border-b border-[#EBE8F4] pb-4 body-lg">
                                 <td>Product</td>
                                 <td>Quantity</td>
@@ -24,12 +24,12 @@ const page = () => {
                                 <td>
                                     <div className="flex gap-x-[21px] lg:items-center">
                                         <Image src={'/cardImg.png'} width={109} height={134} alt="Failed to load" ></Image>
-                                        <div className="space-y-2 max-lg:mt-[19px]">
+                                        <div className="space-y-2 lg:mt-[19px]">
                                             <h4 className="text-[16px] leading-[20px]">Graystone vase</h4>
                                             <p className="text-lg w-[179px]">A timeless ceramic vase with
                                                 a tri color grey glaze.</p>
                                             <p >£85</p>
-                                            <div className="py-3 px-4  max-lg:visible flex items-center gap-x-8">
+                                            <div className="py-3 px-4  lg:visible flex items-center gap-x-8">
                                                 <span className="text-[#EBE8F4]">+</span>
                                                 <span>1</span>
                                                 <span className="text-[#EBE8F4]">-</span>
@@ -38,26 +38,26 @@ const page = () => {
                                     </div>
                                 </td>
                                 <td>
-                                    <div className="py-3 px-4 max-lg:hidden flex items-center gap-x-8">
+                                    <div className="py-3 px-4 lg:hidden flex items-center gap-x-8">
                                         <span className="text-[#EBE8F4]">+</span>
                                         <span>1</span>
                                         <span className="text-[#EBE8F4]">-</span>
                                     </div>
                                 </td>
 
-                                <td className="max-lg:hidden">£85</td>
+                                <td className="lg:hidden">£85</td>
                             </tr>
 
                             <tr className=" lg:pt-5 border-b border-[#EBE8F4] pb-4 ">
                                 <td className="">
                                     <div className="flex gap-x-[21px] lg:items-center">
                                         <Image src={'/cardImg1.png'}  width={109} height={134} alt="Failed to load"></Image>
-                                        <div className="space-y-2 max-lg:mt-[17px]">
+                                        <div className="space-y-2 lg:mt-[17px]">
                                             <h4 className="text-[16px] leading-[20px]">Basic white vase</h4>
                                             <p className="text-lg w-[179px]">ABeautiful and simple this is
                                                 one for the classics</p>
                                             <p >£85</p>
-                                            <div className="py-3 px-4  max-lg:visible flex items-center gap-x-8">
+                                            <div className="py-3 px-4  lg:visible flex items-center gap-x-8">
                                                 <span className="text-[#EBE8F4]">+</span>
                                                 <span>1</span>
                                                 <span className="text-[#EBE8F4]">-</span>
@@ -66,14 +66,14 @@ const page = () => {
                                     </div>
                                 </td>
                                 <td>
-                                    <div className="py-3 px-4 max-lg:hidden flex items-center gap-x-8">
+                                    <div className="py-3 px-4 lg:hidden flex items-center gap-x-8">
                                         <span className="text-[#EBE8F4]">+</span>
                                         <span>1</span>
                                         <span className="text-[#EBE8F4]">-</span>
                                     </div>
                                 </td>
 
-                                <td className="max-lg:hidden">£85</td>
+                                <td className="lg:hidden">£85</td>
                             </tr>
                         </tbody>
                     </table>
@@ -85,9 +85,9 @@ const page = () => {
                                 <h4 className="text-[#2A254B]"> Subtotal</h4>
                                 <h3 className=" text-[#2A254By]">£210</h3>
                             </div>
-                            <p className="max-lg:whitespace-nowrap max-lg:w-fit ml-auto text-lg text-[#2A254B]">Taxes and shipping are calculated at checkout</p>
+                            <p className="lg:whitespace-nowrap lg:w-fit ml-auto text-lg text-[#2A254B]">Taxes and shipping are calculated at checkout</p>
                         </div>
-                        <button type="submit" className="bg-[#2A254B] max-lg:w-full block w-fit ml-auto text-white py-4 mt-8 lg:mt-4 px-[117px] lg:px-[48px]">Go to checkout</button>
+                        <button type="submit" className="bg-[#2A254B] lg:w-full block w-fit ml-auto text-white py-4 mt-8 lg:mt-4 px-[117px] lg:px-[48px]">Go to checkout</button>
                     </div>
                 </section>
             </main>

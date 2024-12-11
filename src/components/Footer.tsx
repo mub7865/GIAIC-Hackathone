@@ -13,7 +13,7 @@ export const Footer = () => {
         <footer className="bg-[#2A254B] w-[390px] lg:w-full text-white pt-[40px] lg:pt-[58px] pb-6 px-6 sm:px-[82px]">
             <section className="grid grid-cols-2 gap-x-[96px] lg:flex sm:justify-between pb-12 border-b border-[#4E4D93]">
 
-                <div className="space-y-3 max-sm:w-max">
+                <div className="space-y-3 sm:w-max">
                     <h5>Menu</h5>
                     <ul className="space-y-3">
                         <li>New arrivals</li>
@@ -24,7 +24,7 @@ export const Footer = () => {
                     </ul>
                 </div>
 
-                <div className="space-y-3 max-sm:-order-1">
+                <div className="space-y-3 sm:-order-1">
                     <h5>Categories</h5>
                     <ul className="space-y-3">
                         <li>Crockery</li>
@@ -36,7 +36,7 @@ export const Footer = () => {
                     </ul>
                 </div>
 
-                <div className="space-y-3 max-sm:mt-10">
+                <div className="space-y-3 sm:mt-10">
                     <h5>Our company</h5>
 
                     <ul className="space-y-3">
@@ -48,7 +48,7 @@ export const Footer = () => {
                     </ul>
                 </div>
 
-                <div className="space-y-4 col-span-2 max-sm:mt-10">
+                <div className="space-y-4 col-span-2 sm:mt-10">
                     <h5>Join our mailing list</h5>
 
                 
@@ -65,7 +65,7 @@ export const Footer = () => {
             <section className="pt-6 flex lg:justify-between items-center justify-center">
                 <p className="font-normal text-sm leading-[18.9px]">Copyright 2022 Avion LTD</p>
 
-                <div className="flex gap-x-6 max-sm:hidden">
+                <div className="flex gap-x-6 sm:hidden">
                     <FaLinkedin size={24}/>
                     <ImFacebook2 size={24}/>
                     <LuInstagram size={24} />

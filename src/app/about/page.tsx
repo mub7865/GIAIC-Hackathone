@@ -19,7 +19,7 @@ const About = () => {
 
 
             <main className='w-[390px] lg:w-full'>
-                <section className='w-[390px] lg:w-full max-lg:space-y-10 px-6 lg:px-[128px] py-8 lg:py-[88px] lg:flex justify-between'>
+                <section className='w-[390px] lg:w-full lg:space-y-10 px-6 lg:px-[128px] py-8 lg:py-[88px] lg:flex justify-between'>
                     <h1 className=' lg:w-[704px] font-normal lg:text-[36px] lg:leading-[50.4px] text-[#2A254B] '>A brand built on the love of craftmanship, quality and outstanding customer service</h1>
                     <Link href='/cart'>
                     <button className=' h-[54px]  py-[16px] px-[100px] lg:px-8 flex lg:gap-5 gap-[10px] items-center text-[16px] leading-6 font-normal  bg-[#F9F9F9] text-[#2A254B] '>

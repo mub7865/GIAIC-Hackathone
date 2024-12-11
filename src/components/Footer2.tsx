@@ -31,7 +31,7 @@ const Footer2 = () => {
                        <FaPinterestSquare size={24}/>
                         </div>
                     </div>
-                    <div className='space-y-3  max-lg:mt-[50px]' >
+                    <div className='space-y-3  lg:mt-[50px]' >
                         <p>Menu</p>
                         <ul className='text-lg space-y-3'>
                             <li>New arrivals</li>
@@ -41,7 +41,7 @@ const Footer2 = () => {
                             <li>All products</li>
                         </ul>
                     </div>
-                    <div className='space-y-3 max-lg:hidden '>
+                    <div className='space-y-3 lg:hidden '>
                         <p>Categories</p>
                         <ul className='text-lg space-y-3'>
                             <li>Crockery</li>
@@ -54,7 +54,7 @@ const Footer2 = () => {
                     </div>
 
 
-                    <div className='space-y-3   max-lg:mt-[50px]'>
+                    <div className='space-y-3   lg:mt-[50px]'>
                         <p>Our company</p>
                         <ul className='text-lg space-y-3'>
                             <Link href='/about'><li>About us</li></Link> 
@@ -69,7 +69,7 @@ const Footer2 = () => {
                 <section>
                     <div className='mt-[67px] border-b border-[#4E4D93]' />
                 </section>
-                <p className='text-white mt-4 max-lg:text-center' >Copyright 2022 Avion LTD</p>
+                <p className='text-white mt-4 lg:text-center' >Copyright 2022 Avion LTD</p>
 
             </footer>
       
