@@ -18,7 +18,6 @@ const Header = () => {
                 <div className="hidden lg:border-b-[0.5px] border-[#0000004f] lg:h-1/2 lg:w-full lg:mx-auto lg:flex justify-between items-center">
                     <IoSearch className="text-xl" />
                     <h1 className="text-[#22202E] text-2xl font-semibold">Avion</h1>
-
                     <div className=" flex text-xl items-center gap-3">
                     <Link href="/"> Home</Link>
                     <Link href="/about"> about.me</Link>

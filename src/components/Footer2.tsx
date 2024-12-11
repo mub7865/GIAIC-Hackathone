@@ -31,7 +31,7 @@ const Footer2 = () => {
                        <FaPinterestSquare size={24}/>
                         </div>
                     </div>
-                    <div className='space-y-3  lg:mt-[50px]' >
+                    <div className='space-y-3 ' >
                         <p>Menu</p>
                         <ul className='text-lg space-y-3'>
                             <li>New arrivals</li>
@@ -54,7 +54,7 @@ const Footer2 = () => {
                     </div>
 
 
-                    <div className='space-y-3   lg:mt-[50px]'>
+                    <div className='space-y-3   '>
                         <p>Our company</p>
                         <ul className='text-lg space-y-3'>
                             <Link href='/about'><li>About us</li></Link> 
