@@ -65,7 +65,7 @@ export const Footer = () => {
             <section className="pt-6 flex lg:justify-between items-center justify-center">
                 <p className="font-normal text-sm leading-[18.9px]">Copyright 2022 Avion LTD</p>
 
-                <div className="flex gap-x-6 lg:hidden">
+                <div className="flex gap-x-6 max-sm:hidden">
                     <FaLinkedin size={24} />
                     <ImFacebook2 size={24} />
                     <LuInstagram size={24} />

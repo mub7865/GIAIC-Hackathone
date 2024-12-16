@@ -54,7 +54,7 @@ const Products = () => {
               </div>
               <div className='mt-8 lg:mt-[50px] lg:h-full flex flex-col gap-4 lg:gap-[px] lg:flex-row '>
                   <div className='flex w-full flex-col lg:items-center lg:flex-row lg:gap-[22px] gap-3'>
-                    <h2 className='hidden lg:block lg:text-[16px] lg:leading-[19.68px]'>Amount:</h2>
+                    <h2 className='max-sm:hidden lg:text-[16px] lg:leading-[19.68px]'>Amount:</h2>
                     <h2 className='lg:hidden text-[16px] leading-[19.68px]'>Quantitity:</h2>
 
                     <div className='bg-[#F9F9F9] w-full lg:w-[122px] flex gap-8 lg:gap-0 lg:justify-between justify-center px-4 py-3 '>

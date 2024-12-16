@@ -17,7 +17,7 @@ const Listing2 = () => {
                     </button>
                     </Link>
       </div>
-      <Image src={'/listing2.png'} alt='Listing2' width={643} height={478} className='hidden lg:block'></Image>
+      <Image src={'/listing2.png'} alt='Listing2' width={643} height={478} className='max-sm:hidden'></Image>
       <Image src={'/listing2.png'} alt='Listing2' width={342} height={259} className='lg:hidden block w-[342px]'></Image>
     
 

@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <div>
             {/* for desktop */}
-            <div className='hidden lg:block lg:bg-heroImage bg-cover bg-center lg:h-[704px] lg:w-full lg:py-[130px] lg:pl-[730px] lg:pr-[80px]'>
+            <div className='max-sm:hidden lg:bg-heroImage bg-cover bg-center lg:h-[704px] lg:w-full lg:py-[130px] lg:pl-[730px] lg:pr-[80px]'>
 
                 <div className=' bg-white pl-[53px] py-[47px]'>
                     <div className='mb-[157px]'>

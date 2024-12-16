@@ -19,7 +19,7 @@ const Header = () => {
                     <IoSearch className="text-xl" />
                     <h1 className="text-[#22202E] text-2xl font-semibold">Avion</h1>
                     <div className=" flex text-xl items-center gap-3">
-                    <Link href="/"> Home</Link>
+                    {/* <Link href="/"> Home</Link> */}
                     <Link href="/about"> about.me</Link>
                     <Link href="/cart"><MdOutlineShoppingCart /></Link>
                         <CgProfile />
@@ -36,7 +36,6 @@ const Header = () => {
 
                         <IoSearch className="text-[16px] block" />
                         <Link href="/cart"><MdOutlineShoppingCart /></Link>
-                        <Link href="/about"> <SiAboutdotme size={50} className="mt-[-16px]" /></Link>
 
 
 
